@@ -1,0 +1,6 @@
+APP_NAME.en_US=Pple's Digester
+APP_NAME.zh_CN=人民摘要
+APP_DESCRIPTION.en_US=Hello World
+APP_DESCRIPTION.zh_CN=你好，世界
+DRAG_TIP.en_US=Please drag files to this window.
+DRAG_TIP.zh_CN=请拖拽文件到此窗体。
