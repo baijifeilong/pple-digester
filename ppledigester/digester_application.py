@@ -3,7 +3,7 @@
 from PySide2 import QtWidgets
 
 from ppledigester import log_utils
-from ppledigester.DigesterWindow import DigesterWindow
+from ppledigester.digester_window import DigesterWindow
 from ppledigester.common import translator
 
 

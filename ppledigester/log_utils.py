@@ -11,7 +11,7 @@ def get_logger(name: str):
         return logger
     handler = logging.StreamHandler()
     handler.setFormatter(colorlog.ColoredFormatter(
-        fmt="%(black)s%(asctime)s.%(msecs)03d %(log_color)s%(levelname)8s%(reset)s %(black)s[%(name)-10s]\t %(message)s",
+        fmt="%(black)s%(asctime)s.%(msecs)03d %(log_color)s%(levelname)8s%(black)s %(cyan)s%(name)-24s%(black)s: %(message)s",
         datefmt='%Y-%m-%d %H:%M:%S'
     ))
     logger.addHandler(handler)
